@@ -1,8 +1,8 @@
 /*---------------------
   Categories
 -----------------------*/
+@import './mixins';
 @import './variable';
-@import './mixins'; 
 .categories__item {
     height: 270px;
     position: relative;
@@ -136,7 +136,7 @@
     bottom: -50px;
     width: 100%;
     text-align: center;
-    @include transition(all, .5s ease-in-out);
+    @include transition(all, .5s);
 
     li {
         list-style: none;

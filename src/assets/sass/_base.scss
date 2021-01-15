@@ -28,8 +28,8 @@
 /*----------------------------------------*/
 /* Template default CSS
 /*----------------------------------------*/
-@import './variable';
 @import './mixins';
+@import './variable';
 html,
 body {
   height: 100%;

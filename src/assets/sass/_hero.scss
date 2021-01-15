@@ -1,8 +1,8 @@
 /*---------------------
   Hero
 -----------------------*/
+@import './mixins';
 @import './variable';
-@import './mixins'; 
 .hero {
     padding-bottom: 50px;
 
@@ -49,10 +49,10 @@
     &:after {
         position: absolute;
         right: 18px;
-        top: 9px;
-        content: '\33';
-        font-family: 'ElegantIcons';
-        font-size: 18px;
+        top: 15px;
+        content: '\f078';
+        font-family: 'FontAwesome';
+        font-size: 15px;
         color: $white-color;
     }
 }

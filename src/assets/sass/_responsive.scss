@@ -1,4 +1,6 @@
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
+@import './mixins';
+@import './variable';
 
 @media only screen and (min-width: 1200px) {
     .container {
